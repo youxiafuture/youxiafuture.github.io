@@ -3,18 +3,37 @@
 <head>
   <meta charset="utf-8">
   
-  <title>linux学习笔记－001 | Free Day</title>
+  <title>通信协议初学 | Free Day</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="TCP/IP
+IP协议对应于网络层，TCP协议对应于传输层（ISO-OSI的七层协议经典架构）
+TCP/IP协议族，最上面的是应用层，http／ftp等；第二层是传输层，TCP/UDP；第三层是网络层，IP协议；其余，第四层是数据链路层，加入以太网协议，进行CRC编码，为数据传输做准备；硬件层，负责网络的传输
+
+TCP协议概述
+既然大家都使用 TCP 协议，那么大家的连接和断开，都要遵循 TCP">
 <meta property="og:type" content="article">
-<meta property="og:title" content="linux学习笔记－001">
-<meta property="og:url" content="http://youxiafuture.github.io/2015/09/06/linux-command-note/index.html">
+<meta property="og:title" content="通信协议初学">
+<meta property="og:url" content="http://youxiafuture.github.io/2015/12/17/tcp-ip-socket/index.html">
 <meta property="og:site_name" content="Free Day">
-<meta property="og:description">
-<meta property="og:updated_time" content="2016-01-25T03:00:20.000Z">
+<meta property="og:description" content="TCP/IP
+IP协议对应于网络层，TCP协议对应于传输层（ISO-OSI的七层协议经典架构）
+TCP/IP协议族，最上面的是应用层，http／ftp等；第二层是传输层，TCP/UDP；第三层是网络层，IP协议；其余，第四层是数据链路层，加入以太网协议，进行CRC编码，为数据传输做准备；硬件层，负责网络的传输
+
+TCP协议概述
+既然大家都使用 TCP 协议，那么大家的连接和断开，都要遵循 TCP">
+<meta property="og:image" content="http://zengrong.net/wp-content/uploads/2014/12/TCP-IP.gif">
+<meta property="og:image" content="http://blog.chinaunix.net/attachment/201211/1/9622484_1351732533Vvlb.gif">
+<meta property="og:image" content="http://zengrong.net/wp-content/uploads/2014/12/socket-traffic.gif">
+<meta property="og:image" content="http://images.cnitblog.com/blog/510/201411/092222479092653.png">
+<meta property="og:updated_time" content="2015-12-17T06:24:28.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="linux学习笔记－001">
-<meta name="twitter:description">
+<meta name="twitter:title" content="通信协议初学">
+<meta name="twitter:description" content="TCP/IP
+IP协议对应于网络层，TCP协议对应于传输层（ISO-OSI的七层协议经典架构）
+TCP/IP协议族，最上面的是应用层，http／ftp等；第二层是传输层，TCP/UDP；第三层是网络层，IP协议；其余，第四层是数据链路层，加入以太网协议，进行CRC编码，为数据传输做准备；硬件层，负责网络的传输
+
+TCP协议概述
+既然大家都使用 TCP 协议，那么大家的连接和断开，都要遵循 TCP">
   
     <link rel="alternative" href="/atom.xml" title="Free Day" type="application/atom+xml">
   
@@ -166,11 +185,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-linux-command-note" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-tcp-ip-socket" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/09/06/linux-command-note/" class="article-date">
-  	<time datetime="2015-09-06T10:03:25.000Z" itemprop="datePublished">2015-09-06</time>
+      <a href="/2015/12/17/tcp-ip-socket/" class="article-date">
+  	<time datetime="2015-12-17T02:26:04.000Z" itemprop="datePublished">2015-12-17</time>
 </a>
     </div>
   
@@ -183,7 +202,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      linux学习笔记－001
+      通信协议初学
     </h1>
   
 
@@ -192,7 +211,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell/">shell</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mtqq/">mtqq</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/socket/">socket</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tcp-ip/">tcp/ip</a></li></ul>
 	</div>
 
         
@@ -203,7 +222,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="TCP/IP">TCP/IP</h1><ol>
+<li>IP协议对应于网络层，TCP协议对应于传输层（ISO-OSI的七层协议经典架构）<br><img src="http://zengrong.net/wp-content/uploads/2014/12/TCP-IP.gif" alt="网络图片"></li>
+<li>TCP/IP协议族，最上面的是应用层，http／ftp等；第二层是传输层，TCP/UDP；第三层是网络层，IP协议；<br>其余，第四层是数据链路层，加入以太网协议，进行CRC编码，为数据传输做准备；硬件层，负责网络的传输</li>
+</ol>
+<h2 id="TCP协议概述">TCP协议概述</h2><ol>
+<li>既然大家都使用 TCP 协议，那么大家的连接和断开，都要遵循 TCP 协议中的三次握手和四次握手 ，只是在连接之后发送的内容不同，或者是断开的时间不同。</li>
+</ol>
+<h1 id="Socket">Socket</h1><ol>
+<li>Socket是对TCP/IP协议的封装，函数接口</li>
+<li>连接过程分为三个步骤：服务器监听，客户端请求，连接确认<br><img src="http://blog.chinaunix.net/attachment/201211/1/9622484_1351732533Vvlb.gif" alt="chinaunix" title="from chinaunix"><br><img src="http://zengrong.net/wp-content/uploads/2014/12/socket-traffic.gif" alt=""><h1 id="HTTP">HTTP</h1></li>
+<li>HTTP协议是建立在TCP协议之上的一种应用,应用层</li>
+<li>Socket是应用层与TCP/IP协议族通信的中间软件抽象层，一组接口，把复杂的TCP/IP协议族隐藏在Socket接口后面。<br>所以HTTP就是TCP/IP应用层的协议。Socket是他们的软件抽象层。HTTP更易用，socket更灵活。</li>
+</ol>
+<h1 id="Websocket">Websocket</h1><ol>
+<li>源自浏览器技术</li>
+</ol>
+<h1 id="MQTT">MQTT</h1><p><img src="http://images.cnitblog.com/blog/510/201411/092222479092653.png" alt=""></p>
+
       
     </div>
     
@@ -212,18 +248,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/09/07/install-raspbian/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2015/12/27/androidsourcecodelearning/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          RaspberryPi使用笔记－001
+          安卓源代码学习－001
         
       </div>
     </a>
   
   
-    <a href="/2015/07/21/first/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Markdown学习笔记－001</div>
+    <a href="/2015/09/07/install-raspbian/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">RaspberryPi使用笔记－001</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -252,7 +288,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="linux-command-note" data-title="linux学习笔记－001" data-url="http://youxiafuture.github.io/2015/09/06/linux-command-note/"></div>
+	<div class="ds-thread" data-thread-key="tcp-ip-socket" data-title="通信协议初学" data-url="http://youxiafuture.github.io/2015/12/17/tcp-ip-socket/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
