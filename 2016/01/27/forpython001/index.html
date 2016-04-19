@@ -5,16 +5,19 @@
   
   <title>Python学习笔记－002 | Free Day</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="1、Differences between Python 2.7 and 31.1 printIn Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.
+The standard use in Pyt">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python学习笔记－002">
 <meta property="og:url" content="http://youxiafuture.github.io/2016/01/27/forpython001/index.html">
 <meta property="og:site_name" content="Free Day">
-<meta property="og:description">
-<meta property="og:updated_time" content="2016-03-23T16:31:40.000Z">
+<meta property="og:description" content="1、Differences between Python 2.7 and 31.1 printIn Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.
+The standard use in Pyt">
+<meta property="og:updated_time" content="2016-04-19T07:42:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python学习笔记－002">
-<meta name="twitter:description">
+<meta name="twitter:description" content="1、Differences between Python 2.7 and 31.1 printIn Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.
+The standard use in Pyt">
   
     <link rel="alternative" href="/atom.xml" title="Free Day" type="application/atom+xml">
   
@@ -203,7 +206,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="1、Differences_between_Python_2-7_and_3">1、Differences between Python 2.7 and 3</h1><h2 id="1-1_print">1.1 print</h2><p>In Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.</p>
+<p>The standard use in Python 2.7 is</p>
+<pre><code><span class="built_in">print</span> <span class="string">'String to Print'</span>
+</code></pre><p>while in Python 3 the standard use is</p>
+<pre><code><span class="built_in">print</span>(’String <span class="keyword">to</span> <span class="built_in">Print</span>’)
+</code></pre><p>Python 2.7 contains a version of the Python 3 print, which can be used in any program by including</p>
+<pre><code>from __future__ import <span class="built_in">print</span>_<span class="keyword">function</span>    
+</code></pre><h2 id="1-2_division">1.2 division</h2><p>In Python 2.7, the ratio of two integers was always an integer, and so results are truncated towards 0 if the result was fractional.Python 3 gracefully converts the result to a floating point number.</p>
+<p>Python 2.7 can use the Python 3 behavior by including</p>
+<pre><code><span class="keyword">from</span> __future__ <span class="keyword">import</span> division
+</code></pre><h2 id="1-3_range_and_xrange">1.3 range and xrange</h2><p>In Python 2.7, the best practice is to use the keyword xrange to do this, while in Python 3, this keyword has been renamed range.</p>
+<h2 id="1-4_Unicode_strings">1.4 Unicode strings</h2><p>Python 3 treats all strings as unicode unlike Python 2.7 where characters are a single byte, and unicode strings require the special syntax u’unicode string’ or unicode(’unicode string’).<br>If working in a lan- guage where characters outside of the standard but limited 128 character set are commonly encountered, it may be useful to use</p>
+<pre><code><span class="keyword">from</span> __future__ <span class="keyword">import</span> unicode_literals
+</code></pre><p>to will help with future compatibility when moving to Python 3.</p>
+
       
     </div>
     
