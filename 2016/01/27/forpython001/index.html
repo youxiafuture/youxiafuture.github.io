@@ -13,7 +13,7 @@ The standard use in Pyt">
 <meta property="og:site_name" content="Free Day">
 <meta property="og:description" content="1、Differences between Python 2.7 and 31.1 printIn Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.
 The standard use in Pyt">
-<meta property="og:updated_time" content="2016-04-19T07:42:26.000Z">
+<meta property="og:updated_time" content="2016-04-19T08:53:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python学习笔记－002">
 <meta name="twitter:description" content="1、Differences between Python 2.7 and 31.1 printIn Python 2.7, print is a keyword which behaves differently from other functions. In Python 3, print behaves like most functions.
@@ -109,7 +109,7 @@ The standard use in Pyt">
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/IDE/" style="font-size: 10px;">IDE</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/android/" style="font-size: 10px;">android</a> <a href="/tags/aosp/" style="font-size: 10px;">aosp</a> <a href="/tags/emacs/" style="font-size: 10px;">emacs</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/mtqq/" style="font-size: 10px;">mtqq</a> <a href="/tags/python/" style="font-size: 20px;">python</a> <a href="/tags/raspberry/" style="font-size: 10px;">raspberry</a> <a href="/tags/shell/" style="font-size: 10px;">shell</a> <a href="/tags/socket/" style="font-size: 10px;">socket</a> <a href="/tags/tcp-ip/" style="font-size: 10px;">tcp/ip</a> <a href="/tags/vi/" style="font-size: 10px;">vi</a>
+						<a href="/tags/Data-mining/" style="font-size: 10px;">Data mining</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/android/" style="font-size: 10px;">android</a> <a href="/tags/aosp/" style="font-size: 10px;">aosp</a> <a href="/tags/emacs/" style="font-size: 10px;">emacs</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/mtqq/" style="font-size: 10px;">mtqq</a> <a href="/tags/python/" style="font-size: 20px;">python</a> <a href="/tags/raspberry/" style="font-size: 10px;">raspberry</a> <a href="/tags/shell/" style="font-size: 10px;">shell</a> <a href="/tags/socket/" style="font-size: 10px;">socket</a> <a href="/tags/tcp-ip/" style="font-size: 10px;">tcp/ip</a> <a href="/tags/vi/" style="font-size: 10px;">vi</a>
 					</div>
 				</section>
 				
@@ -195,7 +195,7 @@ The standard use in Pyt">
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IDE/">IDE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
 	</div>
 
         
@@ -214,12 +214,9 @@ The standard use in Pyt">
 </code></pre><p>Python 2.7 contains a version of the Python 3 print, which can be used in any program by including</p>
 <pre><code>from __future__ import <span class="built_in">print</span>_<span class="keyword">function</span>    
 </code></pre><h2 id="1-2_division">1.2 division</h2><p>In Python 2.7, the ratio of two integers was always an integer, and so results are truncated towards 0 if the result was fractional.Python 3 gracefully converts the result to a floating point number.</p>
-<p>Python 2.7 can use the Python 3 behavior by including</p>
-<pre><code><span class="keyword">from</span> __future__ <span class="keyword">import</span> division
-</code></pre><h2 id="1-3_range_and_xrange">1.3 range and xrange</h2><p>In Python 2.7, the best practice is to use the keyword xrange to do this, while in Python 3, this keyword has been renamed range.</p>
-<h2 id="1-4_Unicode_strings">1.4 Unicode strings</h2><p>Python 3 treats all strings as unicode unlike Python 2.7 where characters are a single byte, and unicode strings require the special syntax u’unicode string’ or unicode(’unicode string’).<br>If working in a lan- guage where characters outside of the standard but limited 128 character set are commonly encountered, it may be useful to use</p>
-<pre><code><span class="keyword">from</span> __future__ <span class="keyword">import</span> unicode_literals
-</code></pre><p>to will help with future compatibility when moving to Python 3.</p>
+<p>Python 2.7 can use the Python 3 behavior by including<br>    from <strong>future</strong> import division</p>
+<h2 id="1-3_range_and_xrange">1.3 range and xrange</h2><p>In Python 2.7, the best practice is to use the keyword xrange to do this, while in Python 3, this keyword has been renamed range.</p>
+<h2 id="1-4_Unicode_strings">1.4 Unicode strings</h2><p>Python 3 treats all strings as unicode unlike Python 2.7 where characters are a single byte, and unicode strings require the special syntax u’unicode string’ or unicode(’unicode string’).<br>If working in a lan- guage where characters outside of the standard but limited 128 character set are commonly encountered, it may be useful to use<br>    from <strong>future</strong> import unicode_literals<br>to will help with future compatibility when moving to Python 3.</p>
 
       
     </div>
@@ -228,6 +225,15 @@ The standard use in Pyt">
   
     
 <nav id="article-nav">
+  
+    <a href="/2016/04/19/forpython002/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Python学习笔记－003
+        
+      </div>
+    </a>
   
   
     <a href="/2016/01/06/learnemacs001/" id="article-nav-older" class="article-nav-link-wrap">
