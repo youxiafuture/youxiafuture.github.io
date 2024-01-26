@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://youxiafuture.github.io/2024/01/26/readme/</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://youxiafuture.github.io/tags/index.html</loc>
     
     <lastmod>2022-10-19</lastmod>
@@ -20,24 +29,6 @@
   </url>
   
   <url>
-    <loc>http://youxiafuture.github.io/2017/11/15/networking001/</loc>
-    
-    <lastmod>2017-11-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2017/11/14/gitlearning001/</loc>
-    
-    <lastmod>2017-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://youxiafuture.github.io/about/index.html</loc>
     
     <lastmod>2017-11-14</lastmod>
@@ -46,224 +37,15 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://youxiafuture.github.io/2016/04/19/forpython002/</loc>
-    
-    <lastmod>2017-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2016/04/20/forpython003/</loc>
-    
-    <lastmod>2017-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2016/01/27/forpython001/</loc>
-    
-    <lastmod>2017-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2016/01/06/learnemacs001/</loc>
-    
-    <lastmod>2016-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2016/01/06/learnPython001/</loc>
-    
-    <lastmod>2016-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2015/09/06/linux-command-note/</loc>
-    
-    <lastmod>2016-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2015/07/21/first/</loc>
-    
-    <lastmod>2016-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2015/09/07/install-raspbian/</loc>
-    
-    <lastmod>2016-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2015/12/17/tcp-ip-socket/</loc>
-    
-    <lastmod>2015-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/2015/07/16/hello-world/</loc>
-    
-    <lastmod>2015-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://youxiafuture.github.io/</loc>
-    <lastmod>2024-01-25</lastmod>
+    <lastmod>2024-01-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
-  <url>
-    <loc>http://youxiafuture.github.io/tags/Markdown/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/python/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/Data-mining/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/git/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/shell/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/emacs/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/vi/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/linux/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/nat/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/iptables/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/network/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/tcp-ip/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/socket/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/mtqq/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/tags/raspberry/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>http://youxiafuture.github.io/categories/python/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://youxiafuture.github.io/categories/git/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 </urlset>
